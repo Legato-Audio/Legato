@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6317eecf803b514eb1e41c52055419f, type: 3}
+  m_Name: chords A
+  m_EditorClassIdentifier: 
+  renders:
+    auxLists:
+    - renders:
+      - {fileID: 8300000, guid: 8adb02fb265a7b94dae9b8473600ee3e, type: 3}
+      - {fileID: 8300000, guid: be98b9c53372f474ca6917d4eb524dfe, type: 3}
+      - {fileID: 8300000, guid: 182647d259556fd4495d3d98d4c67baa, type: 3}
+    - renders:
+      - {fileID: 8300000, guid: 7624f039969d0a04ebe34a3a23874f5f, type: 3}
+      - {fileID: 8300000, guid: 650551a51ed999f4a9503e7ea5ef3731, type: 3}
+      - {fileID: 8300000, guid: a81dbbaad15bd2c45afc6fa7e336b127, type: 3}
+    - renders:
+      - {fileID: 8300000, guid: 4342733ce2579c544920a935bbe9de05, type: 3}
+      - {fileID: 8300000, guid: 55b2adbf71619f24ead6d096b2548b66, type: 3}
+      - {fileID: 8300000, guid: 2a73cda2aaeae004680e3b0c3aa29c8f, type: 3}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 8300000, guid: fd6a178131d49cf48a6c2d36eb21b525, type: 3}
+      - {fileID: 8300000, guid: 12b45e41e812d024fa5a6c34695707db, type: 3}
+      - {fileID: 8300000, guid: 7c0292850362589448b2de58d5d0e06c, type: 3}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  instruments:
+  - bass
+  - bells
+  - cellos
+  - mandolin
+  - organ
+  - percussion
+  - piano
+  - synth
+  - voices
+  tempos:
+  - 120
+  - 180
+  - 90

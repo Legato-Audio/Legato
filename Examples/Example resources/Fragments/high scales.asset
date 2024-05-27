@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6317eecf803b514eb1e41c52055419f, type: 3}
+  m_Name: high scales
+  m_EditorClassIdentifier: 
+  renders:
+    auxLists:
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 8300000, guid: bfc9622f8591be943bd614e0b5f3bb9a, type: 3}
+      - {fileID: 8300000, guid: c61940cd1a5e2104293168dc8eb4b2df, type: 3}
+      - {fileID: 8300000, guid: e99b82c68efbefc4cb433e71c3e2f821, type: 3}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 8300000, guid: 5d52d60d3c5db5c469aa22cb81e88ad0, type: 3}
+      - {fileID: 8300000, guid: c1f101565a402ad4e839f25562c17599, type: 3}
+      - {fileID: 8300000, guid: e391a94f12e2e0743a2ba7886cfae447, type: 3}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  instruments:
+  - bass
+  - bells
+  - cellos
+  - mandolin
+  - organ
+  - percussion
+  - piano
+  - synth
+  - voices
+  tempos:
+  - 120
+  - 180
+  - 90

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6317eecf803b514eb1e41c52055419f, type: 3}
+  m_Name: beat A
+  m_EditorClassIdentifier: 
+  renders:
+    auxLists:
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 8300000, guid: e6f03fabd8707b349b847652f51bcbd1, type: 3}
+      - {fileID: 8300000, guid: 9ee12f05a8bc8764f9fd15c5cd0dc21a, type: 3}
+      - {fileID: 8300000, guid: c2069e06a54c03f44bb24e8ecbc1742a, type: 3}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - renders:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  instruments:
+  - bass
+  - bells
+  - cellos
+  - mandolin
+  - organ
+  - percussion
+  - piano
+  - synth
+  - voices
+  tempos:
+  - 120
+  - 180
+  - 90
