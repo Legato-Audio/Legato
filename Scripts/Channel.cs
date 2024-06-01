@@ -92,7 +92,7 @@ namespace Legato
         {
             if (playing && currFragment == null && fragments.Length == 0 && motifQueue.Count == 0 && queuedMotif.pending == false) playing = false;
 
-            if(playing && !inBuffer && AudioSettings.dspTime > nextMeasure - Legato_Emitter.loadingBuffer) // Loading point
+            if (playing && !inBuffer && AudioSettings.dspTime > nextMeasure - Legato_Emitter.loadingBuffer) // Loading point
             {
                 inBuffer = true;
 
@@ -100,7 +100,7 @@ namespace Legato
                 {
                     if (queuedMotif.pending)
                     {
-                        Debug.Log("Pending queued motif: " + queuedMotif.motif);
+                        if (debug) Debug.Log("Pending queued motif: " + queuedMotif.motif);
                         queuedMotif.pending = false;
                         currFragment = queuedMotif.motif;
                     }

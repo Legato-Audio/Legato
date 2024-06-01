@@ -210,7 +210,7 @@ namespace Legato
         public bool IsEnding(double nextMeasure, int tempo)
         {
             // We use nextmeasure + 60f / tempo * 2 to account for the extra 2 measures of silence added to the end of each clip. This allows reverbs/audio tails/etc. to finish
-            return audioSources[0, 0].clip ? ((AudioSettings.dspTime - audioSources[0, 0].time + audioSources[0, 0].clip.length) < nextMeasure + 60f / tempo * 2f + 0.1 || !audioSources[0, 0].isPlaying) : true;
+            return audioSources[0, 0].clip ? ((AudioSettings.dspTime - audioSources[0, 0].time + audioSources[0, 0].clip.length) < nextMeasure + 60f / tempo * 2f + 0.05 || !audioSources[0, 0].isPlaying) : true;
         }
 
         private static float LinearToCurve(float linear)

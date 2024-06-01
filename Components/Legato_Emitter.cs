@@ -17,7 +17,7 @@ namespace Legato
         
         [ReadOnlyWhenPlaying, SerializeField] private SoundScene[] soundScenes;
 
-        public const float loadingBuffer = 0.4f; // Time (in seconds) that is allowed for audioclips to load between measures.
+        public const float loadingBuffer = 1.0f; // Time (in seconds) that is allowed for audioclips to load between measures.
         private int currentScene = 0;
 
         private Fragment[] fragments;
